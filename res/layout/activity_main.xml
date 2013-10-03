@@ -58,11 +58,13 @@
 	        android:layout_alignParentLeft="true"
 	        android:layout_alignParentRight="true"
 	        android:layout_below="@+id/textView1"
+	        android:background="@drawable/dialog_button"
 	        android:text="Dialog" 
+	        android:textColor="#ffffff"
 	        android:onClick="showDialog"/>
 
 	    <EditText
-	        android:id="@+id/editText1"
+	        android:id="@+id/mainEditText"
 	        android:layout_width="wrap_content"
 	        android:layout_height="wrap_content"
 	        android:layout_alignParentBottom="true"
@@ -88,7 +90,8 @@
 		    android:layout_height="match_parent"
 		    android:layout_weight="1"
 		    android:background="@drawable/button_gradient"
-		    android:text="Screen 1"/>
+		    android:text="Screen 2"
+		    android:onClick="showScreen2"/>
 			
 		<Button
 		    android:id="@+id/button5"
@@ -96,7 +99,8 @@
 		    android:layout_height="match_parent"
 		    android:layout_weight="1"
 		    android:background="@drawable/button_gradient"
-		    android:text="Screen 2" />
+		    android:text="Screen 3" 
+		    android:onClick="showScreen3"/>
 		
 		<Button
 		    android:id="@+id/button6"
@@ -104,7 +108,8 @@
 		    android:layout_height="match_parent"
 		    android:layout_weight="1"
 		    android:background="@drawable/button_gradient"
-		    android:text="Screen 3" />
+		    android:text="Screen 4" 
+		    android:onClick="showScreen4"/>
 		
 	</LinearLayout>
 
