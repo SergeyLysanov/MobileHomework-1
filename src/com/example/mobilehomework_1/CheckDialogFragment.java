@@ -4,16 +4,13 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.DialogFragment;
+import android.support.v4.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.EditText;
-
-import com.example.mobilehomework_1.EditDialogFragment.EditDialogListener;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
 public class CheckDialogFragment extends DialogFragment

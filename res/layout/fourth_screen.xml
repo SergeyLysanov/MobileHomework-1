@@ -36,7 +36,7 @@
         android:background="@drawable/dialog_button"
         android:text="Dialog" 
         android:textColor="#ffffff"
-        android:onClick="showDialog"/>
+        android:onClick="showCheckDialog"/>
 		    
 
  	<ImageView

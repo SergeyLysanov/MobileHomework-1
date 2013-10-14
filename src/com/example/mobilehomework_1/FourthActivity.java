@@ -38,7 +38,7 @@ public class FourthActivity extends FragmentActivity
         if(!isChecked)
         {
         	CheckDialogFragment dialog = new CheckDialogFragment();
-        	dialog.show(getFragmentManager(), "CheckDialogFragment");
+        	dialog.show(getSupportFragmentManager(), "CheckDialogFragment");
         }
     }
 
